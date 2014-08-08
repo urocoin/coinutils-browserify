@@ -106,29 +106,6 @@ function checkUserPass(){
     return true;
 }
 
-function switchSubPage(pageId) {
-    if (checkUserPass()) {
-        activate_subpage('#' + pageId);
-    } else {
-        activate_subpage('#change-account');
-    }
-}
-
-function updateReceivePageContent() {
-    $("#uro-receive-address-lbl").text(Nuro.uroCoinKey.publicAddress);
-    Nuro.qrcode.clear();
-    Nuro.qrcode.makeCode(Nuro.uroCoinKey.publicAddress);
-}
-
-/*
-Reset the send page to clean state
-*/
-function resetSendPageStatus() {
-    $('#recipient-address-input').val('');
-    $('#send-amount-input').val('');
-    $('#send-status-label').html('Please scan/paste in valid receive address and enter the amount to send');
-}
-
 function checkError(msg) {
     if (msg.errors && msg.errors.length) {
         log("Errors occured!!/n" + msg.errors.join("/n"));
