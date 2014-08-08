@@ -7,7 +7,7 @@ Originally designed to be used with BlockCypher's Transactions and Blockchain AP
 
 All the cryptography is done using CryptoCoinJS, see [http://cryptocoinjs.com/]
 
-# Available Functions
+#### Available Functions
 
 ```javascript
 /**
