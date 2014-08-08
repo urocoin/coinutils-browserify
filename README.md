@@ -3,9 +3,9 @@ coinutils-browserify
 
 A fully self-contained client side JavaScript library bundle for creating and using URO/LTC/BTC brain wallets to sign and verify blockchain currency transactions.
 
-Originally designed to be used with the BlockCypher[http://blockcypher.com/] Transactions and Blockchain APIs, but can work with any cryptocurrency workload based on hex string and Buffer encodings.
+Originally designed to be used with the [BlockCypher](http://blockcypher.com/) Transactions and Blockchain APIs, but can work with any cryptocurrency transactions workload based on hex string and Buffer formats.
 
-All the cryptography is done using CryptoCoinJS, see [http://cryptocoinjs.com/]
+All the cryptography is done using [CryptoCoinJS](http://cryptocoinjs.com/).
 
 #### Available Functions
 
