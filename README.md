@@ -5,8 +5,9 @@ A fully self-contained client side JavaScript library bundle for creating and us
 
 Originally designed to be used with BlockCypher's Transactions and Blockchain APIs, but can work with any cryptocurrency workload based on hex string and Buffer encodings.
 
+All the cryptography is done using CryptoCoinJS, see [http://cryptocoinjs.com/]
 
-Available functions:
+# Available Functions
 
 ```javascript
 /**
