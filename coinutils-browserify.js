@@ -2956,8 +2956,6 @@ var map = {
   "URO-TEST":  [0x6F, 0xEF, 0xC4]
 }
 
-
-
 function coininfo(input) {
   input = input.toUpperCase()
   var versions = map[input]
@@ -2977,6 +2975,7 @@ function coininfo(input) {
 
   return ret
 }
+
 },{}],19:[function(require,module,exports){
 (function (Buffer){
 var util = require('util')
